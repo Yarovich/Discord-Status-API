@@ -2,6 +2,7 @@ import requests
 import datetime
 from typing import List
 
+
 class _VoiceStatus:
     def __init__(self, components):
         self.Total: str = components[17]["status"]
@@ -69,6 +70,7 @@ class _SystemMetricsStatus:
     @property
     def Month(self) -> _SM_Status:
         return _SM_Status("month")
+
 
 class _Incident:
     def __init__(self, info: dict):
