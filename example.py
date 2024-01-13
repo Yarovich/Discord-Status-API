@@ -6,8 +6,8 @@ print(status.description)
 
 print(f"Voice status: {status.Voice.Russia}")
 
-sys_mtrcs = status.System_Metrics
-print(f"API Response Time: {sys_mtrcs.Day.last}")
+sys_mtrcs = status.System_Metrics.Day
+print(f"API Response Time: {sys_mtrcs.last}")
 
 unres_inc = status.Unresolved_Incidents
 if len(unres_inc) != 0:
