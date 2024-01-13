@@ -1,7 +1,7 @@
 # Discord-Status-API
 Библиотека для получения информации о статусе дискорда.
 
-По факту это парс сайта https://discordstatus.com/
+Вся инфа берётся от сюда https://discordstatus.com/
 
 Используется https://discordstatus.com/api
 
